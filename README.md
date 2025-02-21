@@ -20,38 +20,43 @@ O evento ofereceu trilhas de aprendizado em diversas tecnologias, incluindo Pyth
 ## Como Rodar o Projeto 🏃
 
 1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nlw_connect_Rocketseat.git
-   ```
+    ```bash
+    git clone https://github.com/seu-usuario/nlw_connect_Rocketseat.git
+    ```
 2. Navegue até o diretório do projeto:
-   ```bash
-   cd nlw_connect_Rocketseat
-   ```
+    ```bash
+    cd nlw_connect_Rocketseat
+    ```
 3. Instale as dependências do front-end:
-   ```bash
-   cd web
-   npm install
-   ```
+    ```bash
+    cd web
+    npm install
+    ```
 4. Instale as dependências do back-end:
-   ```bash
-   cd ../server
-   npm install
-   ```
+    ```bash
+    cd ../server
+    npm install
+    ```
 5. Certifique-se de que o Docker esteja instalado no seu dispositivo.
 6. Inicie o ambiente Docker:
-   ```bash
-   docker compose up -d
-   ```
-7. Execute o front-end:
-   ```bash
-   cd web
-   npm run dev
-   ```
-8. Em uma nova aba do terminal, execute o back-end:
-   ```bash
-   cd server
-   npm run dev
-   ```
+    ```bash
+    docker compose up -d
+    ```
+7. Execute a migração do banco de dados:
+    ```bash
+    cd server
+    npm run db:migrate
+    ```
+8. Execute o front-end:
+    ```bash
+    cd ../web
+    npm run dev
+    ```
+9. Em uma nova aba do terminal, execute o back-end:
+    ```bash
+    cd server
+    npm run dev
+    ```
 
 ## Contribuição 🤝
 

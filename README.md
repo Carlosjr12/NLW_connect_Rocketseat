@@ -40,7 +40,7 @@ O evento ofereceu trilhas de aprendizado em diversas tecnologias, incluindo Pyth
 5. Certifique-se de que o Docker esteja instalado no seu dispositivo.
 6. Inicie o ambiente Docker:
    ```bash
-   docker-compose up
+   docker compose up -d
    ```
 7. Execute o front-end:
    ```bash

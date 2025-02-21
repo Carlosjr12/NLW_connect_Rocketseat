@@ -21,7 +21,7 @@ O evento ofereceu trilhas de aprendizado em diversas tecnologias, incluindo Pyth
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nlw_connect_Rocketseat.git
+   git clone https://github.com/Carlosjr12/NLW_connect_Rocketseat.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
